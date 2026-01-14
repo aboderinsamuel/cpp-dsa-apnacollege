@@ -30,4 +30,6 @@ add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/12_tries & heaps)
 add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/13_Heap & Priority Queues)
 add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/14_Bit Manipulation)
 
-add_executable(new_target 01_arrays/find_min_and_max.cpp)
+add_executable(new_target 01_arrays/find_min_and_max.cpp
+        01_arrays/all_unique_values_in_array.cpp
+        01_arrays/array_intersection.cpp)
