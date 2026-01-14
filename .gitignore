@@ -1,0 +1,15 @@
+# Build folders
+cmake-build-debug/
+cmake-build-release/
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CLion files
+.idea/
