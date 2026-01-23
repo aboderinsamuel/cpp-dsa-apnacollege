@@ -32,4 +32,7 @@ add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/14_Bit Manipulation)
 
 add_executable(new_target 01_arrays/find_min_and_max.cpp
         01_arrays/all_unique_values_in_array.cpp
-        01_arrays/array_intersection.cpp)
+        01_arrays/array_intersection.cpp
+        01_arrays/twoSum.cpp
+        02_strings/validAnagram.cpp
+        01_arrays/topK.cpp)
