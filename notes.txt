@@ -1,0 +1,22 @@
+Functions i have learned so far:
+-- .contains()
+-- .insert()
+-- .find()
+-- .length()
+-- .push_back()
+
+others:
+vector<int> count(26, 0);
+unordered_map<string, vector<string>> mp;
+
+key : "1#0#0#0#1#0#...#1#0#"
+value : ["eat", "tea", "ate"]
+
+mp = {
+  "1#0#0#0#1#0#...#1#" : ["eat", "tea", "ate"],
+  "1#0#0#0#0#0#...#1#" : ["tan", "nat"],
+  "1#0#0#0#0#0#...#0#" : ["bat"]
+}
+
+
+priority_queue<> is a max-heap (big to small)
