@@ -25,3 +25,11 @@ int main() {
     cout << sol.odd_or_even(arr) << endl;
     cout << sol.odd_or_even(arr2) << endl;
 }
+
+//        OR
+// string odd_or_even( const std::vector<int>& arr )
+// {
+//     int sum = 0;
+//     for( auto num : arr ) sum += num;
+//     return sum % 2 ? "odd" : "even";
+// };
