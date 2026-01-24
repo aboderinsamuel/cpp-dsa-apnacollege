@@ -15,6 +15,7 @@ function(add_all_cpp_in_dir DIR_PATH)
 endfunction()
 
 # ======== AUTOMATICALLY ADD FILES FROM FOLDERS ========
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/01_A_codewars)
 add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/01_arrays)
 add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/02_strings)
 add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/03_recursion & backtracking)
@@ -35,4 +36,5 @@ add_executable(new_target 01_arrays/find_min_and_max.cpp
         01_arrays/array_intersection.cpp
         01_arrays/twoSum.cpp
         02_strings/validAnagram.cpp
-        01_arrays/topK.cpp)
+        01_arrays/topK.cpp
+        01_A_codewars/sum2smallest.cpp)

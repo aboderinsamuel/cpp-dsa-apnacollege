@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        if (k == 0) return {};
+        if (k == 0) return {}; // initial edge case.
 
         unordered_map<int,int> freq;
         for (int num : nums) freq[num]++;

@@ -20,3 +20,17 @@ mp = {
 
 
 priority_queue<> is a max-heap (big to small)
+
+create buckets:
+vector<vector<int>> buckets(1000001);
+
+
+you cannot loop in an if statement, example:
+if(char letter : word){
+return false;
+}
+instead:
+if(find(word.begin(), word.end(), letter) != word.end()){
+return false;
+}
+ a = b; means a changes value to b
