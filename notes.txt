@@ -34,3 +34,10 @@ if(find(word.begin(), word.end(), letter) != word.end()){
 return false;
 }
  a = b; means a changes value to b
+
+
+ look up time:
+ unordered set : O(1)
+ set : (o log n)
+ map : (o log n)
+ unordered map : O(1)
