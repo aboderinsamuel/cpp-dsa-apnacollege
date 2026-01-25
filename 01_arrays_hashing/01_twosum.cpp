@@ -18,6 +18,8 @@ public:
         return {};
     }
 };
+// Time: O(n) (Single pass through the array)
+// Space: O(n) (Hash map storage)
 
 int main() {
     vector<int> nums = {2,7, 11, 99, 8, 15};

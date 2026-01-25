@@ -16,27 +16,23 @@ endfunction()
 
 # ======== AUTOMATICALLY ADD FILES FROM FOLDERS ========
 add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/01_A_codewars)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/01_arrays)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/02_strings)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/03_recursion & backtracking)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/04_sorting)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/05_searching)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/06_linked_lists)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/07_stacks & queues)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/08_trees)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/09_graphs)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/10_hashing)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/11_DP & greedy)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/12_tries & heaps)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/13_Heap & Priority Queues)
-add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/14_Bit Manipulation)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/01_arrays_hashing)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/02_two_pointers)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/03_sliding_window)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/04_stack)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/05_binary_search)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/06_linked_list)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/07_trees)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/08_heap_priority_queue)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/09_backtracking)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/10_trie)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/11_graphs)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/12_advanced_graphs)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/13_1d_dp)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/14_2d_dp)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/15_greedy)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/16_intervals)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/17_math_geometry)
+add_all_cpp_in_dir(${CMAKE_SOURCE_DIR}/18_bit_manipulation)
 
-add_executable(new_target 01_arrays/find_min_and_max.cpp
-        01_arrays/all_unique_values_in_array.cpp
-        01_arrays/array_intersection.cpp
-        01_arrays/twoSum.cpp
-        02_strings/validAnagram.cpp
-        01_arrays/topK.cpp
-        01_A_codewars/sum2smallest.cpp
-        01_A_codewars/oddOReven.cpp
-        01_A_codewars/littleTricks.cpp)
+
