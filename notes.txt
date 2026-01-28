@@ -41,3 +41,8 @@ return false;
  set : (o log n)
  map : (o log n)
  unordered map : O(1)
+
+ instead of if c : letters:
+ if(letter.find(c)){};
+
+
